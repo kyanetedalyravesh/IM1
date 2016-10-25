@@ -1,0 +1,25 @@
+body
+
+{
+    text-align: center;
+    background: black;
+}
+
+h1 {
+        color: black;
+        background-color: blue;
+    }
+p
+{
+    color: blue
+}
+strong
+{
+    background-color: black;
+    color: black;
+}
+strong:hover
+{
+    font-weight:bold;	
+    color: blue;}
+}
