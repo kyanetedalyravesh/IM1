@@ -26,3 +26,12 @@ li a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+#Text
+{
+
+    margin-left: 20%;
+    padding-left: 1px;
+    margin-top: 1px;
+    height: 1000px;
+    
+}
