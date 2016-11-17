@@ -22,10 +22,11 @@ li a.active {
     color: white;
 }
 
-li a:hover:not(.active) {
+#menu a:hover:not(.active) {
     background-color: #555;
     color: white;
 }
+
 #Text
 {
 
