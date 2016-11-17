@@ -16,11 +16,11 @@ li a {
     text-decoration: none;
 }
 
-
-li a.active {
+#menu a.active {
     background-color: #4CAF50;
     color: white;
 }
+
 
 #menu a:hover:not(.active) {
     background-color: #555;
