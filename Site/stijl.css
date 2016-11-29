@@ -1,38 +1,68 @@
-ul {
-    list-style-type: none;
+body {
+    font-family: verdana, arial, helvetica, sans-serif;
+    margin: 0px;
+}
+
+#header{
+    text-align: center;
+    border-style: solid;
+    background-color: #248da8;
+    color: white;
+    border-color: #248da8;
+    border-width: 100%;
+    
+}
+
+
+nav ul {
+    list-style: none;
     margin: 0;
     padding: 0;
-    width: 20%;
-    background-color: #f1f1f1;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+    width: 100%;
 }
 
- #menu a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
+
+nav li {
+    background: black;
+    border-style: solid none solid none;
+    border-width: 1px;
+    border-color: maroon;
+    text-align: center;
+    padding: 0;
+    width: 16%;
+    float: left;
+}
+
+nav a:hover,
+nav #huidig a {
+    font-size: 30px;
+    color:red;
+}
+
+nav a {
     text-decoration: none;
+    display: block;
+    border-style: solid;
+    border-width: 5px 5px 5px 5px;
+    border-color: black;
 }
 
-#menu a.active {
-    background-color: #4CAF50;
-    color: white;
+nav a:link {
+    color: #222;
+    /* donkergrijs */
 }
 
-
-#menu a:hover:not(.active) {
-    background-color: #555;
-    color: white;
+nav a:visited {
+    color: #555;
+    /* lichtgrijs */
 }
 
-#Text
-{
-
-    margin-left: 20%;
-    padding-left: 1px;
-    margin-top: 1px;
-    height: 1000px;
-  
+@media screen and (max-width: 415px) {
+    nav li {
+        float: none;
+        width: 100%;
+        transition-property: background-color;
+        transition-duration: 2s;
+        background-color: red;
+    }
 }
