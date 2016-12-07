@@ -28,14 +28,16 @@ nav li {
     border-width: 0px;
     text-align: center;
     padding: 0px;
-    width: 320px;
+    width: 316px;
     float: left;
+    border-radius: 5px;
 }
 
 nav a:hover,
 nav #huidig a {
     font-size: 25px;
     color:white;
+    border-radius: 5px;
 }
 
 nav a {
@@ -57,6 +59,60 @@ nav a:visited {
 {
     margin-top: 40px;
     position: absolute;
+}
+#samsung
+{
+    
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 300px;
+    
+}
+
+#tekstfoto
+{
+    
+    position: absolute;
+    font-size: 50px;
+    margin-left: 550px;
+    margin-top: 150px;
+    text-align: center;
+    
+}
+#tekstfototwee
+{
+    
+    position: absolute;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 380px;
+    margin-left: 620px;
+    
+}
+#imgscooter
+{
+    
+    position: absolute;
+    float: right;
+    margin-left: 72%
+    
+    
+}
+#blok1
+{
+    
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 660px;
+    display: block;
+    border-style: solid;
+    border-color: red;
+    height: 180px;
+    width: 300px;
+    border-width: 10px;
+    text-align: center;
+    font-size: 20px
 }
 
 @media screen and (max-width: 415px) {
