@@ -11,7 +11,6 @@
     animation-timing-function: ease;
     animation-direction: alternate;
 }
-
 @keyframes anim {
     0% {
         left: 0px;
@@ -39,3 +38,50 @@
         background-color: brown;
     }
 }
+
+
+#tweede
+{
+    
+    margin-left: 140px;
+    margin-top: 140px;
+    position: absolute;
+    font-size: 30px;
+    display: block;
+    border-style: solid;
+    animation-name: ani;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+    animation-direction: normal;
+    
+}
+
+@keyframes ani {
+    0% {
+        left: 0px;
+        top: 0px;
+        background-color: yellow;
+    }
+    25% {
+        left: 53%;
+        top: 0px;
+        background-color: aqua;
+    }
+    50% {
+        left: 53%;
+        top: 350px;
+        background-color: blue;
+    }
+    75% {
+        left: 0%;
+        top: 350px;
+        background-color: red;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+        background-color: brown;
+    }
+}
+
