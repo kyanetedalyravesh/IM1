@@ -1,126 +1,219 @@
-body {
-    font-family: verdana, arial, helvetica, sans-serif;
-    margin: 0px;
-}
-
-#header{
-    text-align: center;
-    border-style: solid;
-    background-color: #248da8;
-    color: white;
-    border-color: #248da8;
-    border-width: 100%;
-    
-}
-
-
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    width: 100%;
-}
-
-
-nav li {
-    background: deepskyblue;
-    border-style: solid none solid none;
-    border-width: 0px;
-    text-align: center;
-    padding: 0px;
-    width: 316px;
-    float: left;
-    border-radius: 5px;
-}
-
-nav a:hover,
-nav #huidig a {
-    font-size: 25px;
-    color:white;
-    border-radius: 5px;
-}
-
-nav a {
-    text-decoration: none;
-    display: block;
-    border-style: solid;
-    border-width: 5px;
-    border-color: deepskyblue;
-}
-
-nav a:link {
-    color: white;
-}
-
-nav a:visited {
-    color: antiquewhite;
-}
-#iphonefoto
-{
-    margin-top: 40px;
-    position: absolute;
-}
-#samsung
-{
-    
-    position: absolute;
-    margin-left: 1100px;
-    margin-top: 300px;
-    
-}
-
-#tekstfoto
-{
-    
-    position: absolute;
-    font-size: 50px;
-    margin-left: 550px;
-    margin-top: 150px;
-    text-align: center;
-    
-}
-#tekstfototwee
-{
-    
-    position: absolute;
-    margin-left: 50px;
-    text-align: center;
-    font-size: 40px;
-    margin-top: 380px;
-    margin-left: 620px;
-    
-}
-#imgscooter
-{
-    
-    position: absolute;
-    float: right;
-    margin-left: 72%
-    
-    
-}
-#blok1
-{
-    
-    position: absolute;
-    margin-left: 100px;
-    margin-top: 660px;
-    display: block;
-    border-style: solid;
-    border-color: red;
-    height: 180px;
-    width: 300px;
-    border-width: 10px;
-    text-align: center;
-    font-size: 20px
-}
-
-@media screen and (max-width: 415px) {
-    nav li {
-        float: none;
-        width: 100%;
-        transition-property: background-color;
-        transition-duration: 2s;
-        background-color: red;
+        body {
+        font-family: verdana, arial, helvetica, sans-serif;
+        margin: 0px;
     }
+    header {
+        text-align: center;
+        border-style: solid;
+        background-color: #248da8;
+        color: white;
+        border-color: #248da8;
+        border-width: 100%;
+    }  
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    nav li {
+        background: deepskyblue;
+        border-style: solid none solid none;
+        border-width: 0px;
+        text-align: center;
+        padding: 0px;
+        width: 20%;
+        float: left;
+        font-size: 26px;
+    }
+    nav a:hover,
+    nav #huidig a {
+        font-family: sans-serif;
+        color: black;
+    }
+    nav a {
+        text-decoration: none;
+        display: block;
+        border-style: solid;
+        border-width: 5px;
+        border-color: deepskyblue;
+    }
+    nav a:link {
+        color: white;
+    }
+    nav a:visited {
+        color: white;
+    }
+
+    #blok1 {
+        background-color: #FEFEFE;
+        display: block;
+        border-style: solid;
+        border-color: skyblue;
+        box-shadow: 10px 10px 10px;
+        height: 180px;
+        width: 300px;
+        border-width: 10px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    #blok2 {
+        background-color: #F9F9F9;
+        display: block;
+        border-style: solid;
+        border-color: skyblue;
+        box-shadow: 10px 10px 10px;
+        height: 180px;
+        width: 300px;
+        border-width: 10px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 20px;
+    }  
+    .blokken {
+        display: block;
+        margin: 6%;
+    }
+    #blok3 {
+        background-color: #FEFEFE;
+        display: block;
+        border-style: solid;
+        border-color: skyblue;
+        box-shadow: 10px 10px 10px;
+        height: 180px;
+        width: 300px;
+        border-width: 10px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 20px;
+    }
+    #blok4 {
+        background-color: #fffdfd;
+        display: block;
+        border-style: solid;
+        border-color: skyblue;
+        box-shadow: 10px 10px 10px;
+        height: 180px;
+        width: 300px;
+        border-width: 10px;
+        text-align: center;
+        font-size: 20px;
+        border-radius: 20px;
+    }  
+    #iphone {
+        padding-top: 2%;
+        padding-left: 4%;
+        width: 40%;
+        background-color: #EFFDFE;
+        box-shadow: 0px 0px 10px 0px;
+        display: block;
+        border-radius: 10px;
+    }
+    .block {
+        width: 25%;
+        margin: 1%;
+        float: left;
+    }
+.myButton {
+	-moz-box-shadow: 0px 10px 14px -7px #276873;
+	-webkit-box-shadow: 0px 10px 14px -7px #276873;
+	box-shadow: 0px 10px 14px -7px #276873;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #599bb3), color-stop(1, #408c99));
+	background:-moz-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-webkit-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-o-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:-ms-linear-gradient(top, #599bb3 5%, #408c99 100%);
+	background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#599bb3', endColorstr='#408c99',GradientType=0);
+	background-color:#599bb3;
+	-moz-border-radius:23px;
+	-webkit-border-radius:23px;
+	border-radius:23px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:13px 34px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
 }
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #408c99), color-stop(1, #599bb3));
+	background:-moz-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-webkit-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-o-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:-ms-linear-gradient(top, #408c99 5%, #599bb3 100%);
+	background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#408c99', endColorstr='#599bb3',GradientType=0);
+	background-color:#408c99;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+#headbalk{
+    font-size: 30px;
+    width: 100%;
+    margin: 0;   
+    background-color: #ffd6d6;
+}
+table, td{
+    border: solid 2px;
+    border-color: white;
+    border-radius: 10px;
+    background-color: #EFFDFF;
+    width: 70%;
+    height: 30px;  
+}
+td{
+    font-size: 14px;
+}
+#form
+{
+    width: 100%; 
+    margin-left: 0;
+    
+}
+label, textarea
+{
+    padding-left: 5%;
+}
+#aank
+{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 20px;
+}
+#aankverk
+{
+    text-align: center;
+    width: 100%
+    
+}
+#contact
+{
+    text-align: center;
+}
+  @media screen and (max-width: 815px) {
+        nav li {
+            float: none;
+            width: 100%;
+            transition-duration: 3s;
+        }
+      blokc
+      {
+          float: none;
+            width: 100%;
+            margin-top: auto;
+            box-shadow: 0px 0px 0px;
+      }
+        #iphone
+        {
+            width: 100%;
+        }
+      #form{
+          width: 100%
+      }
