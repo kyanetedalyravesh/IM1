@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>iRepair</title>
     <meta name="description" content="Les 10">
-    <link rel="stylesheet" href="stijl.css" s>
+    <link rel="stylesheet" href="stijl.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: "sans-serief", Arial, Verdana;
@@ -15,33 +16,60 @@
 </head>
 
 <body>
-    <div id="header">
+    <header>
         <p id="adres">Karreveldlaan 66 1081 Koekelberg Maandag-Zaterdag 10h00 - 18h00 Tel : 02 789 968</p>
-    </div>
+    </header>
     <nav>
         <ul>
             <li id="huidig"><a href="index.html">Home</a></li>
-            <li><a href="iphonereparatie.html">Reparatie iPhone</a></li>
-            <li><a href="smartphonereparatie.html">Smartphone reparatie</a></li>
+            <li><a href="ReparatieIphone.html">Reparatie iPhone</a></li>
+            <li><a href="Smartphonereparatie.html">Smartphone reparatie</a></li>
             <li><a href="aankoop.html">Aankoop/Verkoop</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
-    <div id="iphonefoto"> <img src="../img/parallax1-1.png" alt="iphone afbeelding" width="1500px" ; height="600px" ;> </div>
-    <div id="samsung"> <img src="../img/parallax1-2.png" alt="SamsungSmartphone"> </div>
-    <div id="tekstfoto">
-        <p> Wij herstellen uw iPhone
-            <br> smartphone en Apple
-            <br> producten in Brussel </p>
+    <div id="iphonefoto"> <img src="../img/Capture.PNG" alt="iphone afbeelding" width="100%" height="100%"></div>
+    <div class="blokken" id="blokc">
+        <article class="block" id="blok1"> <a><b>Afhaling</b></a>
+            <br>
+            <p>Afhaling bij u thuis tegen
+                <br>een kleine supplement
+                <br> <img src="../img/scoot.PNG" alt="scooter"></p>
+        </article>
+        <article class="block" id="blok2"> <a><b>Snelle reparaties</a></b>
+            <br>
+            <br> <a>Uw product wordt binnen de 30 minuten behandeld</a>
+            <br> <img src="../img/time.PNG" alt="tijd" height="70px"> </article>
+        <article class="block" id="blok3"> <a><b>Garantie</b></a>
+            <br>
+            <p>Één jaar garantie op elke stuk die vervangen wordt <br><img src="../img/garantie.PNG" alt="Garantie" height="70px"></p>
+        </article>
+        <article class="block" id="blok4"> <a><b>Verkoop</b></a>
+            <br>
+            <p>We verkopen ook opladers, kabels en ook oortjes
+                <br><img src="../img/verkoop.PNG" alt="Verkoop" height="70px"></p>
+        </article>
     </div>
-    <div id="tekstfototwee">
-        <p>Snelle reparaties van
-            <br> uw defecte apparaaten
-            <br> aan de beste prijzen </p>
-    </div>
-    <div id="blok1"> 
-        <div id="imgscooter"><img src="../img/scoot.PNG" alt="scooter"></div>
-        <p>Afhaling bij u thuis</p>
-    </div>
-
+    <article class="block" id="iphone"><img src="../img/iphone-casse.png" alt="Gebroken IPhone" STYLE="float: right;">
+        <b><a>IPhone</a></b> 
+        <p>Scherm reparatie</p>
+        <p>Vervanging van de batterij</p>
+        <p>Caméra / Knopjes</p>
+        <p>Foutdiagnose</p> <a href="ReparatieIphone.html" class="myButton">Lees meer</a> </article>
+    <article id="iphone" class="block" ; style="float: right;"> <img src="../img/samsung-casse-1.png" alt="Gebroken Samsung" style="float: right;"> <b><a>Smartphone</a></b>
+        <p>Scherm reparatie</p>
+        <p>Vervanging van de batterij</p>
+        <p>Caméra / Knopjes</p>
+        <p>Foutdiagnose</p> <a href="Smartphonereparatie.html" class="myButton">Lees meer</a> </article>
+    <article id="iphone" class="block" ; style="float: left;"> <img src="../img/achat-vente.png" alt="Verkoop aakoop" style="float: right;"> <b><a>Aankoop/Verkoop</a></b>
+        <p>IPhone aankoop/verkoop</p>
+        <p>Samsung aankoop/verkoop</p>
+        <p>Opladers</p>
+        <p>Kabels</p> <a href="Aankoop.html" class="myButton">Lees meer</a> </article>
+    <article id="iphone" class="block" ; style="float: right;"> <img src="../img/macbook.png" alt="Vragen" style="float: right;"> <b><a>Contact</a></b>
+        <p>Vragen over gebroken scherm</p>
+        <p>Vragen over batterij</p>
+        <p>Trackpad - Toetsenbord</p>
+        <p>Vragen over diagnose/panne</p> <a href="../Site/Contact.html" class="myButton">Klik hier als je vragen hebt</a> </article>
 </body>
+</html>
